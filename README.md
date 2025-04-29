@@ -32,7 +32,7 @@ I got more familiar with writing HTML and started learning how to build a respon
 
 ### Continued development
 
-I want to get better at keeping my code tidy and well-organized, so it’s easier to read and work with. I'm also still getting used to using proper HTML tags (like <h1>, <p>, etc.) and want to keep improving how I structure my pages.
+I want to get better at keeping my code tidy and well-organized, so it’s easier to read and work with. I'm also still getting used to using proper HTML tags (like h1, p, etc) and want to keep improving how I structure my pages.
 
 ### Useful resources
 
