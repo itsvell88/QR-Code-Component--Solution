@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Component</title>
+    <!-- This means the css file is linked  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- This is Google Font link for  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+    />
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center; /* Centers the container horizontally */
+        align-items: center; /* Centers the container vertically */
+        height: 100vh; /* Makes the body take the full viewport height */
+        margin: 0; /* Removes default margin to avoid any extra space around the body */
+      }
+
+      .container {
+        background-color: #ffffff;
+        box-shadow: 8px 8px 28px rgba(31, 49, 79, 0.1);
+        width: 320px;
+        height: 475px;
+        border-radius: 20px;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .qr-code {
+        width: 288px;
+        height: 288px;
+        border-radius: 10px;
+      }
+
+      h4 {
+        font-size: 22px;
+        font-family: "outfit", "bold";
+        font-weight: 700;
+        line-height: 1.3;
+        color: #1f314f;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      p {
+        /* Style */
+        font-size: 16px;
+        font-family: "outfit", "regular";
+        font-weight: 400;
+        line-height: 1.5;
+        color: #68778D;
+        /* Position */
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #d5e1ef"> <!-- Slate grey background-->
+    <div class="container">
+      <!-- QR Code Image -->
+      <img src="image-qr-code.png" alt="QR Code" class="qr-code" />
+      <!-- Tittle Below QR Code -->
+      <h4>Improve your front-end skills by building projects</h4>
+      <!-- Description Text -->
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+  </body>
+</html
